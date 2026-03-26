@@ -20,7 +20,7 @@
     <header>
 
         <!-- logo -->
-        <div>
+        <div class="header-logo">
             <a href="http://shein.com.br">
                 Royal Petal
 
@@ -30,21 +30,22 @@
         </div>
 
         <!-- Menu Desktop / PC -->
-        <nav>
-            <ul>
+        <nav class="menu-desktop">
+            <ul class="menu">
                 <li>
-                    <a href="">
-                        <span> Home </span>
+                    <!-- Cria Links -->
+                    <a href="#home" class="menu link active">
+                        <span class="menu-texto"> Home </span>
                     </a>
                 <li>
-                    <a href="">
-                        <span> Produtos </span>
+                    <a href="" class="menu-link active">
+                        <span class="menu-texto"> Produtos </span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
-                        <span> Sobre </span>
+                    <a href="#sobre" class="menu-link">
+                        <span class="menu-texto"> Sobre </span>
                     </a>
                 </li>
 
@@ -59,13 +60,13 @@
         </nav>
 
         <!-- Icone trocar cor tema -->
-        <div>
+        <div class="header-toggle">
 
             <!-- ìcone sol ou lua -->
-            <i class="bi bi-sun"></i>
+            <i class="bi bi-sun" id="toggleColorTheme"> </i>
 
             <!-- Botao Hamburger -->
-            <button>
+            <button class="btn-menu-mobile" id="menuHamburger">
                 <i class="bi bi-list"></i>
             </button>
         </div>
