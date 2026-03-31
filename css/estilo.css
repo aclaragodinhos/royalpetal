@@ -37,11 +37,38 @@ background-color: #c9b7c7;
 /* Comprimento */
 width: 100%;
 }
-/* UL */
+/* UL sistema lista tópicos */
 .menu {
     list-style: none;
     /* lista horizontal */
     display: flex;
     /* espaço */
-    gap: 1rem;
+    gap: 1rem; /* um rem */
+}
+
+/* Tag NAV */
+.menu-desktop {
+    display: none;
+}
+
+/* Versão Mobile */
+
+/* Responsivo */
+/* Telas maiores */
+
+/* Telas Maiores que 768px */
+
+@media (min-width: 768px) {
+    header {
+        padding: ; 
+        /* espaço inteiro */
+        padding: 1rem 6rem;
+        justify-content: flex-end;
+        gap: ;
+    }
+    /* NAV */
+        .menu-desktop {
+            display: flex;
+        }
+        
 }
